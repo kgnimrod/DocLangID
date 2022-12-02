@@ -1,0 +1,17 @@
+epochs: 100
+batch_size: 64
+split_train: 0.7
+split_val: 0.1
+lr: 0.001
+weight_decay: 0.0
+aug_num_ops: 5
+aug_mag: 5
+aug_num_mag: 11
+aug_prob: 0.25
+few_shot_mode: null
+few_shot_n: null
+pretrained_path: null
+num_languages: 6
+patch_size: 4
+patch_size_x: 256
+patch_size_y: 256

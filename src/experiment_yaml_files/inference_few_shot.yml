@@ -1,0 +1,21 @@
+# This YAML file can be used at inference and represents the few-shot 
+# training setting after the feature extractor has been trained
+# on the source domain dataset.
+epochs: 25
+batch_size: 5
+lr: 0.3
+weight_decay: 0.0
+aug_num_ops: 5
+aug_mag: 3
+aug_num_mag: 11
+aug_prob: 0.25
+few_shot_mode: "baseline++"
+few_shot_n: 50
+split: 600
+num_languages: 4
+patch_size: 4
+patch_size_x: 224
+patch_size_y: 224
+shape_x: 1000
+shape_y: 1000
+

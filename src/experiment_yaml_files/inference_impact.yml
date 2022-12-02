@@ -1,0 +1,10 @@
+# This YAML file can be used at inference and represents the pretraining
+# setting for the source domain dataset IMPACT.
+# When using this file, a model pretrained on IMPACT needs to be loaded.
+num_languages: 6
+patch_size: 4
+patch_size_x: 224
+patch_size_y: 224
+shape_x: 600
+shape_y: 1200
+few_shot_mode: null

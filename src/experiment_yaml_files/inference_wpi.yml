@@ -1,0 +1,10 @@
+# This YAML file can be used at inference and represents the pretraining
+# setting for the source domain dataset WPI.
+# When using this file, a model pretrained on WPI needs to be loaded.
+num_languages: 4
+patch_size: 4
+patch_size_x: 224
+patch_size_y: 224
+shape_x: 1000
+shape_y: 1000
+few_shot_mode: null

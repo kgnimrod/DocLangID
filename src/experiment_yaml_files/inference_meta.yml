@@ -1,0 +1,10 @@
+# This YAML file can be used at inference and represents the pretraining
+# setting for joint pretraining on both, the IMPACT dataset and a small subset of the WPI
+# dataset. When using this file, a model pretrained on the joint dataset (Meta) needs to be loaded.
+num_languages: 10
+patch_size: 4
+patch_size_x: 224
+patch_size_y: 224
+shape_x: 1000
+shape_y: 1000
+few_shot_mode: null
