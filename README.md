@@ -1,18 +1,6 @@
-# Master's Project: Developing Language Identification for Art-Historical Documents
+This repository contains the code for our paper: "DocLangID: Improving Few-Shot Training for Language Identification of Historical Documents" (Arxiv Upload soon).
 
-This project aims to develop a computer vision system for automatically detecting the language of art-historical documents that primarily contain printed text. In this project, we trained a deep neural network to perform language identification on our datasets. Our datasets comprise images of documents which belong to a variety of different languages and date back until the 16th century. Additionally, we deployed our solution on the website of our project partner, the [Wildenstein Plattner Institute](https://wpi.art/), which can be found [here](https://hpi.de/meinel/wpi_demo/).
 
-The main motivation of this language identification project is primarily that it can increase the character recognition quality of OCR methods. An OCR system knowing about the language of a certain document will be able to minimize the number of other possible languages. Thus, the amount of possible characters to consider while performing the character recognition will also be significantly reduced. For instance, take an image of a German historical document, where (for the sake of simplicity) the full image only contains German characters and its language has been identified accordingly by our deep neural network.
-
-![Alt text](https://gitlab.hpi.de/till.nowakowski/masterproject-art-historical-documents/-/wikis/uploads/cb081f029d0c8d1b4f047e22347e1706/Unbenannt.png)
-
-If an OCR system does not know anything about the language class of an image, it is more likely to consider a character from a set of language alphabets. Then, from this set of alphabets, the system is likely to select a character that visually matches the most with the character in the image. Therefore, the output of such a recognition could contain characters from multiple alphabets and look like this:
-
-![Alt text](https://gitlab.hpi.de/till.nowakowski/masterproject-art-historical-documents/-/wikis/uploads/d3654af6be309d9967d0a50ae97b1fd5/Unbenannt.png)
-
-In contrast, an OCR sytem knowing that this particular image only contains German characters will be able to rule out other languages. Then, it would only need to select the next best character from a much smaller set of possible characters. The (improved) output of such a recognition performed on the same input image could now look like this:
-
-![Alt text](https://gitlab.hpi.de/till.nowakowski/masterproject-art-historical-documents/-/wikis/uploads/eae396e9b8bcb6dd4fd4e61f877327ec/Unbenannt.png)
 
 # Overview
 This rest of this README is strucutured in the following way: 
