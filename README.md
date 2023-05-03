@@ -1,5 +1,7 @@
 This repository contains the code for our paper: "DocLangID: Improving Few-Shot Training for Language Identification of Historical Documents" (Arxiv Upload soon).
 
+![Overview of our DocLangID approach](https://github.com/caesarea38/DocLangID/blob/main/doclangid_overview.png)
+
 
 
 # Overview
